@@ -1,3 +1,8 @@
+"use strict";
 
+// CALCULATES CURRENT DATE 
+var today = new Date();
 
-// CALCULATE CURRENT DATE - 18?
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+
+console.log(today);
