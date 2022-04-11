@@ -2,6 +2,7 @@
 
 // Change theme to dark by adding the `dark` classname to html element.
 let theme = localStorage.getItem('data-theme');
+
 const changeThemeToDark = () => {
     document.documentElement.setAttribute("data-theme", "dark"); // set theme to dark
     localStorage.setItem("data-theme", "dark"); // save theme to local storage

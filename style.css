@@ -23,20 +23,33 @@ html[data-theme='dark'] {
     --color-text: #B5B5B5;
 }
 
+header h3 {
+    color: var(--color-heading);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
 body { 
     background-color: var(--bg); /* background color variable */
 }
 
 .container {
   background-color: var(--bg-panel); /* background panel color variable */
-  margin: 5em;
-  padding: 5em;
-  border-radius: 15px;
+  margin: 3em;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container h1 {
   margin: 0;
   color: var(--color-heading); /* heading 1 background color variable */
+}
+
+.container :nth-child(1+2+3){
+    padding-bottom: 10px;
 }
 
 .container p {
@@ -45,6 +58,7 @@ body {
   grid-area: content;
   font-size: 1.1em;
   line-height: 1.8em;
+  text-align: center;
 }
 
 input[type=checkbox] { /* styling for input element */
@@ -89,4 +103,11 @@ input:checked + label:after {
 
 label:active:after {
     width: 45px;
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        margin: 5em;
+        padding: 5em;
+    }
 }
