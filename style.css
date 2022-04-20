@@ -28,6 +28,7 @@ header h3 {
     display: flex;
     justify-content: center;
     padding: 10px;
+    font-family: 'Jura', sans-serif;
 }
 
 body { 
@@ -41,11 +42,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 6px;
 }
 
 .container h1 {
   margin: 0;
   color: var(--color-heading); /* heading 1 background color variable */
+  font-family: monospace;
+  font-weight: lighter;
 }
 
 .container :nth-child(1+2+3){
@@ -57,8 +61,9 @@ body {
   -ms-grid-column-span: 2;
   grid-area: content;
   font-size: 1.1em;
-  line-height: 1.8em;
+  line-height: 1.2em;
   text-align: center;
+  font-family: 'Jura', sans-serif;
 }
 
 input[type=checkbox] { /* styling for input element */
