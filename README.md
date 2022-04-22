@@ -7,8 +7,9 @@ I have seen over sites during this, but never with the specific date and a abili
 Therefore i decided to create over8teen
 
 ### Features
-Light and dark mode theme toggle.  
-Local storage who remember which theme your device choose last time.  
-A Calculator that figure out when people are 18.  
+> Light and dark mode theme toggle.  
+> A Calculator that figure out when people are 18.  
+> Local storage who remember which theme your device choose last time.  
+
 
 ### [LIVE DEMO](https://simonemiar.dk/over8teen)
