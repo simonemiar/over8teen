@@ -35,5 +35,3 @@ checkbox.addEventListener('change', () => {
 });
 // Remembers last theme 
 document.documentElement.setAttribute("data-theme", theme);
-
-gsap.from(".container", {opacity: 0, duration:0.5, y: -50});
