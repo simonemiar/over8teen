@@ -7,7 +7,7 @@ I have seen over sites during this, but never with the specific date and a abili
 Therefore i decided to create over8teen
 
 ### Features
-Light and dark mode theme toggle. 
-A Calculator that figure out when people are 18. 
+Light and dark mode theme toggle.  
+A Calculator that figure out when people are 18.  
 
 ### [LIVE DEMO](https://simonemiar.dk/over8teen)
