@@ -7,8 +7,8 @@
 
 ### Features
 * Light and dark mode theme toggle.  
-* A Calculator that figure out when people are 18.  
-* Local storage who remember which theme your device choose last time.  
+* A Calculator that figures out when people are 18.  
+* Local storage who remember which theme your device chose last time.  
 
 
 ### [LIVE DEMO](https://simonemiar.dk/over8teen)
